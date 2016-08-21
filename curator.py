@@ -16,9 +16,10 @@ for f in lista_xls:
     lista_df.append(pd.read_excel(f, **karg_xls))
 # Concatena todos los archivos
 aux = pd.concat(lista_df)
+# Elimina duplicados deja ultimo valor
+aux.drop_duplicates(keep='last', inplace=True)
 # Ordena por Fecha
 aux = aux.sort_index()
-
 # Guarda archivos UF csv
 csvfname = 'data/uf.csv'
 aux.to_csv(csvfname, **karg_csv)
