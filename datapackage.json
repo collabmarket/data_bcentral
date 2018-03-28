@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "web": "https://github.com/collabmarket/data_bcentral", 
+      "name": "Javier R.C.", 
+      "email": "javier.rovegno@gmail.com"
+    }
+  ], 
+  "version": "1.0", 
+  "description": "Unidad de Fomento Chile\r\n", 
+  "license": {
+    "url": "http://www.opendefinition.org/licenses/cc-by", 
+    "type": "cc-by", 
+    "title": "Creative Commons Attribution"
+  }, 
+  "title": "uf", 
+  "author": {
+    "name": "Javier R.C.", 
+    "email": "javier.rovegno@gmail.com"
+  }, 
+  "resources": [
+    {
+      "url": "https://raw.githubusercontent.com/collabmarket/data_bcentral/master/data/uf.csv", 
+      "title": "2016-06 UF", 
+      "name": "2016-06-uf", 
+      "format": "CSV"
+    }
+  ], 
+  "name": "uf"
+}
